@@ -194,7 +194,7 @@ h3 {
 .hero-panel img {
   width: 100%;
   aspect-ratio: 4 / 3;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: var(--radius);
   background: #f8fbfe;
 }
@@ -313,7 +313,8 @@ h3 {
 .product-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 14px;
 }
 
 .stock-pill {
@@ -644,7 +645,8 @@ textarea:focus {
 .detail-image img {
   width: 100%;
   aspect-ratio: 1 / 1;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 20px;
 }
 
 .detail-info {
@@ -839,7 +841,7 @@ textarea:focus {
 .order-summary img {
   width: 100%;
   aspect-ratio: 4 / 3;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: var(--radius);
   margin-bottom: 12px;
 }

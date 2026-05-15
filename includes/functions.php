@@ -82,7 +82,7 @@ function products_by_brand(string $brand): array
 function brands(): array
 {
     $brands = array_unique(array_merge(
-        ['Samsung', 'Tecno', 'Infinix', 'Xiaomi', 'Oppo', 'Itel', 'Vivo', 'Realme', 'Nokia', 'Motorola', 'Honor', 'Huawei', 'OnePlus', 'Google Pixel', 'Nothing', 'Sony', 'Asus', 'TCL', 'ZTE', 'Blackview', 'Ulefone', 'Doogee', 'Oukitel', 'Umidigi', 'Cubot', 'Meizu', 'Alcatel'],
+        ['Tecno', 'Infinix', 'Itel', 'Samsung', 'Xiaomi', 'Oppo'],
         array_map(fn ($product) => (string) $product['brand'], get_products())
     ));
     sort($brands);

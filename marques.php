@@ -8,7 +8,7 @@ include __DIR__ . '/includes/header.php';
 <section class="page-title">
   <p class="eyebrow">Marques</p>
   <h1>Choisir une marque</h1>
-  <p>Parcourez toutes les marques disponibles. Tu pourras retirer celles que tu ne veux pas vendre depuis le catalogue.</p>
+  <p>Parcourez les marques Android les plus pertinentes pour un stock local au Bénin.</p>
 </section>
 
 <section class="section">
